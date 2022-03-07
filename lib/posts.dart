@@ -57,6 +57,60 @@ class PostsWidget extends StatelessWidget {
       "profil_image" : "assets/images/profils/profil_5.jpeg",
       "image" : "assets/images/photos/post_5.jpeg",
       "content" : "Just a test"
+    },
+    {
+      "name": "Leo Messi",
+      "profil_image" : "assets/images/profils/profil_3.jpeg",
+      "image" : "assets/images/photos/post_3.jpeg",
+      "content" : "Just a test"
+    },
+    {
+      "name": "Leo Messi",
+      "profil_image" : "assets/images/profils/profil_4.jpeg",
+      "image" : "assets/images/photos/post_4.jpg",
+      "content" : "Just a test"
+    },
+    {
+      "name": "Leo Messi",
+      "profil_image" : "assets/images/profils/profil_5.jpeg",
+      "image" : "assets/images/photos/post_5.jpeg",
+      "content" : "Just a test"
+    },
+    {
+      "name": "Leo Messi",
+      "profil_image" : "assets/images/profils/profil_3.jpeg",
+      "image" : "assets/images/photos/post_3.jpeg",
+      "content" : "Just a test"
+    },
+    {
+      "name": "Leo Messi",
+      "profil_image" : "assets/images/profils/profil_4.jpeg",
+      "image" : "assets/images/photos/post_4.jpg",
+      "content" : "Just a test"
+    },
+    {
+      "name": "Leo Messi",
+      "profil_image" : "assets/images/profils/profil_5.jpeg",
+      "image" : "assets/images/photos/post_5.jpeg",
+      "content" : "Just a test"
+    },
+    {
+      "name": "Leo Messi",
+      "profil_image" : "assets/images/profils/profil_3.jpeg",
+      "image" : "assets/images/photos/post_3.jpeg",
+      "content" : "Just a test"
+    },
+    {
+      "name": "Leo Messi",
+      "profil_image" : "assets/images/profils/profil_4.jpeg",
+      "image" : "assets/images/photos/post_4.jpg",
+      "content" : "Just a test"
+    },
+    {
+      "name": "Leo Messi",
+      "profil_image" : "assets/images/profils/profil_5.jpeg",
+      "image" : "assets/images/photos/post_5.jpeg",
+      "content" : "Just a test"
     }
   ];
 
@@ -109,17 +163,17 @@ class PostsWidget extends StatelessWidget {
                       child: Row(
                         children: [
                           IconButton(
-                              onPressed: () {}, icon: const Icon(Icons.favorite_outline)
+                              onPressed: () {}, icon: const Icon(Icons.favorite_outline, size: 23,)
                           ),
                           IconButton(
-                              onPressed: () {}, icon: const Icon(Icons.messenger_outline)
+                              onPressed: () {}, icon: const Icon(Icons.messenger_outline, size: 23,)
                           ),
                           IconButton(
-                              onPressed: () {}, icon: const Icon(Icons.send_outlined)
-                          ),
+                                onPressed: () {}, icon: const Icon(Icons.send_outlined, size: 23,)
+                            ),
                           Expanded(child: Container()),
                           IconButton(
-                              onPressed: () {}, icon: const Icon(Icons.bookmark_outline)
+                              onPressed: () {}, icon: const Icon(Icons.bookmark_outline, size: 23,)
                           ),
                         ],
                       ),
